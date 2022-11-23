@@ -8,7 +8,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">{{ folder }}</ion-title>
     </ion-toolbar>
@@ -17,5 +17,25 @@
   <div id="container">
     <strong class="capitalize">{{ folder }}</strong>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+  <!-- GenerateHexCode -->
+  <div *ngIf="folder === 'SelectedText'">
+    <app-selected-text></app-selected-text>
   </div>
+
+  <!-- ScrollToTop -->
+  <div *ngIf="folder === 'ScrollToTop'" class="body">
+    <app-scroll-to-top></app-scroll-to-top>
+  </div>
+
+  <!-- GenerateHexCode -->
+  <div *ngIf="folder === 'GenerateHexCode'">
+    <app-generate-hex-code></app-generate-hex-code>
+  </div>
+
+  <!-- Clipboard -->
+  <div *ngIf="folder === 'GenerateHexCode'">
+    <app-clipboard></app-clipboard>
+  </div>
+
 </ion-content>
