@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { elementAt } from 'rxjs';
+
 
 @Component({
   selector: 'app-clipboard',
@@ -6,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clipboard.component.scss'],
 })
 export class ClipboardComponent implements OnInit {
+  // copyed:string;
+  copyed: string = "";
 
   constructor() { }
 
-  ngOnInit() {}
-
+  ngOnInit() {
+  }
+  copy() {
+    navigator.clipboard.writeText(this.copyed);
+  }
 }
