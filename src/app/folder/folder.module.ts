@@ -11,6 +11,7 @@ import { SelectedTextComponent } from '../components/selected-text/selected-text
 import { ScrollToTopComponent } from '../components/scroll-to-top/scroll-to-top.component';
 import { GenerateHexCodeComponent } from '../components/generate-hex-code/generate-hex-code.component';
 import { ClipboardComponent } from '../components/clipboard/clipboard.component';
+import { RandomArrayComponent } from '../components/random-array/random-array.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,11 @@ import { ClipboardComponent } from '../components/clipboard/clipboard.component'
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage, SelectedTextComponent, ScrollToTopComponent, GenerateHexCodeComponent, ClipboardComponent]
+  declarations: [FolderPage,
+    SelectedTextComponent,
+    ScrollToTopComponent,
+    GenerateHexCodeComponent,
+    ClipboardComponent,
+    RandomArrayComponent]
 })
 export class FolderPageModule { }

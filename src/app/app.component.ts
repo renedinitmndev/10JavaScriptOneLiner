@@ -10,8 +10,11 @@ export class AppComponent {
     { title: 'ScrollToTop', url: '/folder/ScrollToTop', icon: 'heart' },
     { title: 'GenerateHexCode', url: '/folder/GenerateHexCode', icon: 'heart' },
     { title: 'Clipboard', url: '/folder/Clipboard', icon: 'heart' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'heart' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'heart' },
+    { title: 'RandomArray', url: '/folder/RandomArray', icon: 'heart' },
+    { title: '...', url: '/folder/...', icon: 'heart' },
+    { title: '...', url: '/folder/...', icon: 'heart' },
+    { title: '...', url: '/folder/....', icon: 'heart' },
+    { title: '...', url: '/folder/...', icon: 'heart' },
   ];
   public labels = ['Das', 'ist', 'javascript', 'Work', 'Team', 'Bereit'];
   constructor() {}
