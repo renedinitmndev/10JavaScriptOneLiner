@@ -6,15 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./selected-text.component.scss'],
 })
 export class SelectedTextComponent implements OnInit {
-
+  gst: any;
   getSelectedText = () => window.getSelection();
 
   constructor() {
     document.addEventListener('mouseup', () => {
       //TODO Text kann nicht makiert werden XFUNKTIONIERT-20.11.22X
       console.log(this.getSelectedText()?.toString());
-      let gst = this.getSelectedText()?.toString();
-      if (gst) {
+      this.gst = this.getSelectedText()?.toString();
+      if (this.gst) {
         console.log("HAHAHAHAHAHA+++++++++++++++++");
       } else {
         console.log("NANANANANANANAN-----------------");

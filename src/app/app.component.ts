@@ -11,11 +11,12 @@ export class AppComponent {
     { title: 'GenerateHexCode', url: '/folder/GenerateHexCode', icon: 'heart' },
     { title: 'Clipboard', url: '/folder/Clipboard', icon: 'heart' },
     { title: 'RandomArray', url: '/folder/RandomArray', icon: 'heart' },
-    { title: '...', url: '/folder/...', icon: 'heart' },
-    { title: '...', url: '/folder/...', icon: 'heart' },
-    { title: '...', url: '/folder/....', icon: 'heart' },
-    { title: '...', url: '/folder/...', icon: 'heart' },
+    { title: 'Darkmode', url: '/folder/Darkmode', icon: 'heart' },
+    { title: 'Weekday', url: '/folder/Weekday', icon: 'heart' },
+    { title: 'BrowserTabAktiv', url: '/folder/BrowserTabAktiv', icon: 'heart' },
+    { title: 'CanTouchIt', url: '/folder/CanTouchIt', icon: 'heart' },
+    { title: 'NavUnderlineEffect', url: '/folder/NavUnderlineEffect', icon: 'heart' },
   ];
   public labels = ['Das', 'ist', 'javascript', 'Work', 'Team', 'Bereit'];
-  constructor() {}
+  constructor() { }
 }

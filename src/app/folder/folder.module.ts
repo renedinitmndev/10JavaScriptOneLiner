@@ -12,6 +12,10 @@ import { ScrollToTopComponent } from '../components/scroll-to-top/scroll-to-top.
 import { GenerateHexCodeComponent } from '../components/generate-hex-code/generate-hex-code.component';
 import { ClipboardComponent } from '../components/clipboard/clipboard.component';
 import { RandomArrayComponent } from '../components/random-array/random-array.component';
+import { DarkModeComponent } from '../components/dark-mode/dark-mode.component';
+import { WeekdayComponent } from '../components/weekday/weekday.component';
+import { TouchSupportComponent } from '../components/touch-support/touch-support.component';
+import { BrowserTabAktivComponent } from '../components/browser-tab-aktiv/browser-tab-aktiv.component';
 
 @NgModule({
   imports: [
@@ -25,6 +29,14 @@ import { RandomArrayComponent } from '../components/random-array/random-array.co
     ScrollToTopComponent,
     GenerateHexCodeComponent,
     ClipboardComponent,
-    RandomArrayComponent]
+    RandomArrayComponent,
+    DarkModeComponent,
+    WeekdayComponent,
+    TouchSupportComponent,
+    BrowserTabAktivComponent
+
+  ]
+
+
 })
 export class FolderPageModule { }
